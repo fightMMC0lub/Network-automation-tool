@@ -4,7 +4,7 @@ from utils.logger import setup_logger
 logger = setup_logger()
 
 if __name__ == "__main__":
-    host = "8.8.8.8"
+    host = input("Enter the IP address or domain to scan: ").strip()
     logger.info("Starting network automation tasks...")
 
     ping.ping_host(host, logger)
@@ -13,4 +13,3 @@ if __name__ == "__main__":
     traceroute.run_traceroute(host, logger)
 
     logger.info("Tasks completed.")
-
