@@ -1,1 +1,7 @@
 
+---
+
+#### 2. `requirements.txt`
+```text
+# No external requirements - uses only standard library
+
