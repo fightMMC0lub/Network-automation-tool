@@ -1,1 +1,3 @@
+DEFAULT_HOST = "8.8.8.8"
+COMMON_PORTS = [22, 80, 443]
 
